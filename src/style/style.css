@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    height: 550px;
+    width: 100%;
+    background-color: #101e22;
+    background-image: url(../images/bgTop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+nav {
+    width: 1250px;
+    text-align: right;
+}
+
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a#active,
+nav a:hover {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+nav a:hover {
+    transition: 0.1s ease-out;
+}
+
+#menu {
+    color: #f1f1f1;
+    display: none;
+}
+
+header div {
+    width: 1300px;
+}
+
+#simikar {
+    width: 236px;
+    margin-top: 5%;
+}
+
+form#kemampuan {
+    margin: 0;
+    margin-left: 25px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 30px;
+    border: 3px solid white;
+    z-index: 100;
+}
+
+form#kemampuan input {
+    height: 100%;
+    width: 432px;
+    margin-left: 15px;
+    background-color: #101e2200;
+    border: 0;
+    outline: none;
+    color: white;
+    z-index: 100;
+}
+
+form#kemampuan input::placeholder {
+    color: rgba(255, 255, 255, 0.863);
+}
+
+form#kemampuan button {
+    border: 0;
+    background-color: #101e2200;
+    color: white;
+    z-index: 100;
+    cursor: pointer;
+}
+
+form#kemampuan button {
+    padding-top: 5px;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/bgMiddle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+div.box {
+    margin-top: -150px;
+    width: 1245px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 0 30px rgb(0 0 0 / 35%);
+    border-radius: 15px;
+}
+
+div.box img {
+    width: 1160px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+div.sr {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+}
+
+div.sr img {
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 360px;
+}
+
+h1 {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    width: 650px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div#hasil {
+    color: white;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+div#hasil h3 {
+    padding: 8px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+div#hasil img {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    margin-top: -15px;
+    margin-left: 190px;
+}
+
+h2 span {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: -20px;
+    height: 250px;
+    width: 100%;
+    background-color: #101e22;
+    background-image: url(../images/bgBottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+p#footer {
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+p#footer span {
+    text-decoration: underline;
+}
+
+footer div {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#simikarFooter {
+    margin: 0;
+    width: 170px;
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+#sib {
+    margin: 0;
+    display: block;
+    padding: 0;
+    padding-top: 20px;
+    height: 120px;
+}
+
+@media only screen and (max-width: 1366px) {
+
+    header,
+    main,
+    footer,
+    p {
+        display: none;
+    }
+}
